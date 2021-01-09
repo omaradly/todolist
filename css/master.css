@@ -1,0 +1,39 @@
+body{
+    background-color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+.container-input{
+    margin: 50px auto 0;
+    background-color: #CCC;
+    padding: 20px;
+    text-align: center;
+}
+.container-input .data{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    width: 40%;
+}
+.container-input .add-data{
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor:cell;
+}
+.list{
+    margin: 30px auto;
+    padding: 50px;
+}
+.list li{
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+.list li .remove{
+    padding: 7px 10px;
+    margin: 0 0 15px 15px;
+    color: red;
+    cursor:url('icons8-delete-25.png'), auto;
+    
+}
